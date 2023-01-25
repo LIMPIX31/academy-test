@@ -1,6 +1,9 @@
 const withPlugins = require('next-compose-plugins')
 const { withImportantThing } = require('./with-important-thing')
 
+/**
+ * @type {import('next').NextConfig}
+ */
 const nextConfig = {
   experimental: {
     externalDir: true,
@@ -9,6 +12,7 @@ const nextConfig = {
     esmExternals: 'loose',
     outputStandalone: true,
   },
+  distDir: './dist',
 }
 
 module.exports = withPlugins([

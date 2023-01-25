@@ -2551,6 +2551,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"dist-128d76@workspace:frontend/landing/app/src/dist/standalone/dist":
+  version: 0.0.0-use.local
+  resolution: "dist-128d76@workspace:frontend/landing/app/src/dist/standalone/dist"
+  languageName: unknown
+  linkType: soft
+
+"dist-981727@workspace:frontend/landing/app/src/dist":
+  version: 0.0.0-use.local
+  resolution: "dist-981727@workspace:frontend/landing/app/src/dist"
+  languageName: unknown
+  linkType: soft
+
 "doctrine@npm:^3.0.0":
   version: 3.0.0
   resolution: "doctrine@npm:3.0.0"
