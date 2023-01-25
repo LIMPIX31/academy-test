@@ -12,7 +12,6 @@ const nextConfig = {
     esmExternals: 'loose',
     outputStandalone: true,
   },
-  distDir: './dist',
 }
 
 module.exports = withPlugins([
