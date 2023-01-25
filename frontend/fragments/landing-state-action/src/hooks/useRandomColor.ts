@@ -1,7 +1,7 @@
 import { useEffect } from 'react'
 import { useRef }    from 'react'
 
-const useRandomColor = (() => {
+const useRandomColor = () => {
   const node = useRef(null)
   const { random, floor } = Math
   const colors = ['red', 'green', 'blue']
@@ -11,6 +11,6 @@ const useRandomColor = (() => {
   }, [])
 
   return () => node
-})()
+}
 
 export { useRandomColor }
