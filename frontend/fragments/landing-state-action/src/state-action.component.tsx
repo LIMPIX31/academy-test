@@ -29,7 +29,7 @@ const StateAction: FC = () => {
         </Layout>
         <Layout flexBasis={16} />
         <Layout>
-          <Box>
+          <Box cursor='pointer'>
             <Text fontWeight='medium' fontSize='big' onClick={handleClick}>
               Click me
             </Text>
