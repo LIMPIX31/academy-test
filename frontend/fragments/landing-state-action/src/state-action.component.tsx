@@ -14,7 +14,7 @@ import { checkResult }               from './helpers'
 const StateAction: FC = () => {
   const node = useRandomColor()
 
-  const handleClick = (event) => {
+  const handleClick = () => {
     // Тут ничего трогать не нужно
     checkResult(body(window))
   }
@@ -29,7 +29,7 @@ const StateAction: FC = () => {
         </Layout>
         <Layout flexBasis={16} />
         <Layout>
-          <Box cursor='pointer'>
+          <Box>
             <Text fontWeight='medium' fontSize='big' onClick={handleClick}>
               Click me
             </Text>
